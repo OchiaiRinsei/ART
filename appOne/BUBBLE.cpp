@@ -9,7 +9,6 @@ BUBBLE::BUBBLE() {
 	Vec.y = random(-5.0, 5.0f);
 }
 BUBBLE::~BUBBLE() {
-
 }
 void BUBBLE::perform() {
 	Pos += Vec;
@@ -22,5 +21,6 @@ void BUBBLE::perform() {
 	angleMode(DEGREES);
 	fill(Color);
 	circle(Pos.x, Pos.y, Radius*2);
+
 
 }

@@ -24,6 +24,8 @@
     <ClCompile Include="RAIN_ART.cpp" />
     <ClCompile Include="SQUARE.cpp" />
     <ClCompile Include="SQUARE_ART.cpp" />
+    <ClCompile Include="RECT.cpp" />
+    <ClCompile Include="RECT_ART.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BUBBLE.h" />
@@ -33,5 +35,7 @@
     <ClInclude Include="RAIN_ART.h" />
     <ClInclude Include="SQUARE.h" />
     <ClInclude Include="SQUARE_ART.h" />
+    <ClInclude Include="RECT.h" />
+    <ClInclude Include="RECT_ART.h" />
   </ItemGroup>
 </Project>

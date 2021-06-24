@@ -1,14 +1,15 @@
 #pragma once
 #include"libOne.h"
-class BUBBLE
+class RECT1
 {
-	float Radius = 0;
+	float Len = 0;
 	COLOR Color;
 	VECTOR2 Pos, Vec;
-
+	float Angle;
+	float AngSpeed;
 public:
-	BUBBLE();
-	~BUBBLE();
+	RECT1();
+	~RECT1();
 	void perform();
 };
 
